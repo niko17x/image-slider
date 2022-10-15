@@ -1,0 +1,13 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --primary-bg-color: rgb(255, 255, 255);
+  --secondary-bg-color: black;
+  --primary-text-color: black;
+  --secondary-text-color: black;
+}
+
+body {
+  background: black;
+}
