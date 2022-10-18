@@ -16,20 +16,36 @@
     
     <section aria-label="Newest Photos">
       <ul data-slides>
-        <li class="slide" data-active>
+        <li id="img1" class="slide data-active" data-active>
           <img src="/img/glaciers.jpeg" alt="Image 1">
         </li>
-        <li class="slide">
+        <li id="img2" class="slide">
           <img src="/img/mountains.jpeg" alt="Image 2">
         </li>
-        <li class="slide">
+        <li id="img3" class="slide">
           <img src="/img/owl.jpeg" alt="Image 3">
         </li>
-        <li class="slide">
-          <img src="/img/seaside.jpeg" alt="Image 3">
+        <li id="img4" class="slide">
+          <img src="/img/seaside.jpeg" alt="Image 4">
         </li>
       </ul>
     </section>
+
+    <!-- Dots on the page that identify with the image being shown on screen: -->
+    <div class="carousel-dots" data-carousel-dots>
+      <label for="radio1">
+        <input type="radio" name="img-select" id="radio1" checked>
+      </label>
+      <label for="radio2">
+        <input type="radio" name="img-select" id="radio2">
+      </label>
+      <label for="radio3">
+        <input type="radio" name="img-select" id="radio3">
+      </label>
+      <label for="radio4">
+        <input type="radio" name="img-select" id="radio4">      
+      </label>
+    </div>
     
   </div>
 
